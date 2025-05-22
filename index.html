@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <div class="btn">
+        <div class="inputBox">
+            <label for="clientAnswer2">Write your number to convert to binary:</label>
+            <p></p>
+            <input type="number" id="clientAnswer2">
+            <button onclick="submitAnswerIn2()">Send</button>
+        </div>
+        <p id="result2"></p>
+    </div>
+    <div class="btn">
+        <div class="inputBox">
+            <label for="clientAnswer10">Write your number to convert to decimal:</label>
+            <p></p>
+            <input type="number" id="clientAnswer10">
+            <button onclick="submitAnswerIn10()">Send</button>
+        </div>
+        <p id="result10"></p>
+    </div>
+    <div class="btn">
+        <div class="inputBox">
+            <label for="clientAnswer16">Write your number to convert to hexadecimal:</label>
+            <p></p>
+            <input type="number" id="clientAnswer16">
+            <button onclick="submitAnswerIn16()">Send</button>
+        </div>
+        <p id="result16"></p>
+    </div>
+    <div class="btn">
+        <div class="inputBox">
+            <label for="clientAnswerRev">Write your number to reverse:</label>
+            <p></p>
+            <input type="number" id="clientAnswerRev">
+            <button onclick="wrapAnswer()">Send</button>
+        </div>
+        <p id="resultRev"></p>
+    </div>
+    <div class="btn">
+        <div class="inputBox">
+            <label for="clientAnswerSumm">Write your number to calculate the sum of numbers:</label>
+            <p></p>
+            <input type="number" id="clientAnswerSumm">
+            <button onclick="summOfDigits()">Send</button>
+        </div>
+        <p id="resultSumm"></p>
+    </div>
+    <div class="btn">
+        <div class="inputBox">
+            <label for="clientAnswerMath">Write the formula to calculate:</label>
+            <p></p>
+            <input type="text" id="clientAnswerMath">
+            <button onclick="formula()">Send</button>
+        </div>
+        <p id="resultMath"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
