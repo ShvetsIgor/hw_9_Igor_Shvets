@@ -1,6 +1,6 @@
 function submitAnswerIn2() {
     let answer = document.getElementById("clientAnswer2").value;
-    let myAnswer = +answer;
+    let myAnswer = Math.abs(answer);
     alert(document.getElementById("result2").textContent = "Result: " + myAnswer.toString(2));
 }
 
